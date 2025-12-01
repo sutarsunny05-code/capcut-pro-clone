@@ -1,0 +1,71 @@
+========================================
+CAPCUT PRO CLONE - EASY INSTALLATION
+========================================
+
+STEP 1: Download Node.js
+-------------------------
+Go to: https://nodejs.org/
+Download and install the LTS version (recommended)
+
+STEP 2: Download This Project
+------------------------------
+Option A: Download ZIP
+- Click the green "Code" button on GitHub
+- Click "Download ZIP"
+- Extract the ZIP file to your desired location
+
+Option B: Use Git
+- Open terminal/command prompt
+- Run: git clone https://github.com/sutarsunny05-code/capcut-pro-clone.git
+
+STEP 3: Install Dependencies
+-----------------------------
+Windows:
+1. Open the extracted folder
+2. Double-click "INSTALL.bat"
+   OR
+   Right-click in the folder and select "Open in Terminal"
+   Type: npm install
+   Press Enter
+
+Mac/Linux:
+1. Open Terminal
+2. Navigate to the folder: cd path/to/capcut-pro-clone
+3. Run: npm install
+
+STEP 4: Run the App
+-------------------
+Windows:
+- Double-click "START.bat"
+  OR
+- Open terminal and type: npm run dev
+
+Mac/Linux:
+- Open Terminal
+- Run: npm run dev
+
+STEP 5: Open in Browser
+------------------------
+Open your web browser and go to:
+http://localhost:3000
+
+That's it! Your video editor is now running!
+
+========================================
+TROUBLESHOOTING
+========================================
+
+Problem: "npm not found"
+Solution: Install Node.js from https://nodejs.org/
+
+Problem: Port 3000 already in use
+Solution: Close other apps using port 3000 or change port in package.json
+
+Problem: Dependencies not installing
+Solution: Delete node_modules folder and run "npm install" again
+
+========================================
+NEED HELP?
+========================================
+Open an issue on GitHub:
+https://github.com/sutarsunny05-code/capcut-pro-clone/issues
